@@ -1,7 +1,7 @@
 // Global Var
 //=====================================================================
 // Arrays and variables needed for holding data
-const sitcoms = ["waffles", "parks", "ann", "little sebastian", "ben"];
+const sitcoms = ["Martin", "Family Matters", "A Different World", "Living Single", "Smart Guy", "Fresh Prince", "The Wayans Bros", "Steve Harvey Show", "The Parkers", "The Jamie Foxx Show", "In Living Color", "Moesha", "Kenan and Kel", "The PJs", "Cousin Skeeter"];
 let secretWord = "";
 let lettersinWord = [];
 const numBlanks = 0;
