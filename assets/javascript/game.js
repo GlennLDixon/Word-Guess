@@ -12,3 +12,7 @@ let wrongGuesses = [];
 let winCount = 0;
 let lossCount = 0;
 const guessesLeft = 10;
+
+function startGame {
+
+}
