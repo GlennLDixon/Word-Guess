@@ -16,7 +16,7 @@ const guessesLeft = 10;
 window.addEventListener('keypress', startGame, false);
 
 function startGame(e) {
-    if (e.code) {
+    if (e.keypress) {
         console.log("game started");
     }
 }
