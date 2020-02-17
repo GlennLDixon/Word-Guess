@@ -13,10 +13,10 @@ let winCount = 0;
 let lossCount = 0;
 const guessesLeft = 10;
 
-window.addEventListener('keypress', startGame, false);
+window.addEventListener('keypress', (e) => {
+    startGame(e)
+});
 
 function startGame(e) {
-    if (e.keypress) {
-        console.log("game started");
-    }
+        console.log("game started", "e", e.code);
 }
