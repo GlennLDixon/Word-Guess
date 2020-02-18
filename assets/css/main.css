@@ -1,5 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Opens Sans", sans-serif;
+  font-size: "Modak", cursive;
+  box-sizing: border-box; }
+
 .jumbotron {
   height: 40vh;
-  background-color: lightgrey; }
+  background-color: lightgrey;
+  position: relative; }
+  .jumbotron h1 {
+    padding: 50px 0 50px 0;
+    font-family: "sigmar One", cursive;
+    font-size: 3.7em;
+    letter-spacing: 5px;
+    color: #32cd32; }
+    .jumbotron h1 .num {
+      font-family: "Coustard", serif;
+      font-size: 1.1em;
+      margin: -15px 0 0 550px;
+      display: block;
+      color: purple;
+      transform: rotate(-40deg);
+      position: absolute; }
+  .jumbotron hr {
+    width: 125px;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

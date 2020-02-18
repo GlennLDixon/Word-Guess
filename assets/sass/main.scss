@@ -1,4 +1,44 @@
-.jumbotron{
+$head-font: 'sigmar One', cursive;
+$p-font: 'Modak', cursive;
+$alt-font: 'Coustard', serif;
+
+$head-size: 3.7em;
+$p-size: 1.1em;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Opens Sans", sans-serif;
+    font-size: $p-font;
+    box-sizing: border-box;
+}
+
+.jumbotron {
     height: 40vh;
     background-color: lightgrey;
+    position: relative;
+
+    h1 {
+        padding: 50px 0 50px 0;
+        font-family: $head-font;
+        font-size: $head-size;
+        letter-spacing: 5px;
+        color: #32cd32;
+        .num {
+            font-family: $alt-font;
+            font-size: $p-size;
+            margin: -15px 0 0 550px;
+            display: block;
+            color: purple;
+            transform: rotate(-40deg);
+            position: absolute;
+        }
+    }
+
+    hr {
+        width: 125px;
+        text-align: center;
+    }
+
 }
