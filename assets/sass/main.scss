@@ -16,7 +16,7 @@ $p-size: 1.1em;
 
 .jumbotron {
     height: 40vh;
-    background-color: lightgrey;
+    background-color: #0c0c0c;
     position: relative;
 
     h1 {
@@ -25,20 +25,37 @@ $p-size: 1.1em;
         font-size: $head-size;
         letter-spacing: 5px;
         color: #32cd32;
+        text-shadow: 2px 2px white;
         .num {
             font-family: $alt-font;
             font-size: $p-size;
-            margin: -15px 0 0 550px;
+            margin: -15px 0 0 520px;
             display: block;
             color: purple;
             transform: rotate(-40deg);
             position: absolute;
+            text-shadow: 2px 2px white;
         }
     }
 
-    hr {
-        width: 125px;
-        text-align: center;
+    p {
+        color: white;
+        font-size: $p-size;
+        letter-spacing: 2px;
+        padding: 50px 0 0 0;
     }
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 473px;
+}
+
+
+.card {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: $p-size;
 }

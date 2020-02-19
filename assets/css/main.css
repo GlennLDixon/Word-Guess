@@ -7,24 +7,39 @@
 
 .jumbotron {
   height: 40vh;
-  background-color: lightgrey;
+  background-color: #0c0c0c;
   position: relative; }
   .jumbotron h1 {
     padding: 50px 0 50px 0;
     font-family: "sigmar One", cursive;
     font-size: 3.7em;
     letter-spacing: 5px;
-    color: #32cd32; }
+    color: #32cd32;
+    text-shadow: 2px 2px white; }
     .jumbotron h1 .num {
       font-family: "Coustard", serif;
       font-size: 1.1em;
-      margin: -15px 0 0 550px;
+      margin: -15px 0 0 520px;
       display: block;
       color: purple;
       transform: rotate(-40deg);
-      position: absolute; }
-  .jumbotron hr {
-    width: 125px;
-    text-align: center; }
+      position: absolute;
+      text-shadow: 2px 2px white; }
+  .jumbotron p {
+    color: white;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    padding: 50px 0 0 0; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 473px; }
+
+.card {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.1em; }
 
 /*# sourceMappingURL=main.css.map */
